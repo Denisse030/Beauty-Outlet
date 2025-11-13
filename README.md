@@ -6,7 +6,7 @@ A modern, responsive front-end for **Beauty Outlet**, a beauty and skincare e-co
 
 ## 📹 Demo Video  
 
-[![Beauty Outlet Demo](https://img.youtube.com/vi/50IS17RSqN8/0.jpg)](https://www.youtube.com/watch?v=50IS17RSqN8)  
+[![Beauty Outlet Demo](https://img.youtube.com/vi/50IS17RSqN8/maxresdefault.jpg)](https://www.youtube.com/watch?v=50IS17RSqN8)  
 
 Click the image above to watch a walkthrough of the project in action.
 
@@ -50,14 +50,6 @@ src/
 ├─ App.jsx        # Main app component
 └─ index.jsx      # Entry point
 ```
-
----
-
-## 📹 Demo Video
-
-[![Beauty Outlet Demo](https://img.youtube.com/vi/50IS17RSqN8/0.jpg)](https://www.youtube.com/watch?v=50IS17RSqN8)
-
-Click the image above or the link to watch a walkthrough of the project in action.
 
 ---
 
