@@ -99,7 +99,3 @@ Email: [denissebg03@gmail.com](mailto:denissebg03@gmail.com)
 GitHub: [github.com/Denisse030](https://github.com/Denisse030)
 
 ---
-
-This README provides a professional overview for your GitHub repository.
-
-If you want, I can also **add a “Screenshots” section** with your product and hero UI for a more visual README. Do you want me to do that next?
