@@ -1,115 +1,113 @@
-# Beauty Outlet - Skincare Edition (E-Commerece Frontend)
+# Beauty Outlet (Skincare) - Frontend
 
-**Beauty Outlet** is a modern, responsive e-commerce frontend built with React and Tailwind CSS. It showcases a collection of beauty and skincare products with interactive UI elements, including product pages, a hero banner, contact page, and shopping cart interface.
-
----
-
-## Demo Video
-
-<a href="https://www.youtube.com/watch?v=50IS17RSqN8">
-  <img src="https://www.youtube.com/watch?v=50IS17RSqN8/maxresdefault.jpg" alt="Watch the video" width="600" height="auto">
-</a>
-
-Click the thumbnail above to watch a walkthrough of the project's features and functionality!
+A modern, responsive front-end for **Beauty Outlet**, a beauty and skincare e-commerce site. This project focuses on delivering a clean and user-friendly interface to showcase products, manage cart interactions, and display product details.
 
 ---
 
-## 🛍️ Features
+## 📹 Demo Video  
 
-- **Product Pages**  
-  - Display product images, descriptions, and price.  
-  - Image gallery with clickable thumbnails.  
-  - Selectable product sizes.  
-  - Add to cart functionality (frontend simulation only).  
+[![Beauty Outlet Demo](https://img.youtube.com/vi/50IS17RSqN8/0.jpg)](https://www.youtube.com/watch?v=50IS17RSqN8)  
 
-- **Hero Section**  
-  - Responsive hero banner with image slider (carousel).  
-  - Attractive layout for desktop and mobile.
-
-- **Cart Overview**  
-  - Shows subtotal, shipping fee, and total price.  
-  - Proceed to checkout button (simulated).
-
-- **Contact Section**  
-  - Company address, phone, and email information.  
-  - Social media links (frontend only, no backend integration).
-
-- **Footer**  
-  - Company description, links, and contact information.  
-  - Fully responsive.
-
-- **Responsive Design**  
-  - Mobile-first layout using Tailwind CSS.  
-  - Adaptive grid and flex layouts for desktop and tablet.
+Click the image above to watch a walkthrough of the project in action.
 
 ---
 
-## 🛠️ Tech Stack
+## 🖥 Features
 
-- **Frontend:** React, Tailwind CSS  
-- **State Management:** React Context API (for cart simulation)  
-- **Routing:** React Router  
-- **Assets:** Images, icons, and custom graphics  
+* **Responsive Layout:** Works seamlessly on mobile, tablet, and desktop screens.
+* **Hero Section:** Eye-catching hero banner with optional image slider.
+* **Product Page:**
+
+  * Image gallery with clickable thumbnails.
+  * Size selection for products.
+  * Add to cart functionality (frontend only).
+  * Related products section.
+  * Description and reviews tabs.
+* **Cart Summary:** Displays subtotal, shipping fee, and total.
+* **Contact Section:** Includes address, phone, email, and social media links.
+* **Footer:** Company info, quick links, and contact details.
+
+---
+
+## 🎨 Tech Stack
+
+* **React.js** – UI library for building the application.
+* **Tailwind CSS** – Utility-first CSS framework for styling.
+* **React Router** – For routing between pages.
+
+> ⚠️ Note: This is a **frontend-only project**. Cart and product interactions are simulated and do not connect to a backend.
 
 ---
 
 ## 📂 Project Structure
 
 ```
-
 src/
-├─ assets/         # Images, icons
-├─ components/     # Reusable components like Hero, RelatedProducts, CartTotal
-├─ context/        # ShopContext for state management
-├─ pages/          # Product, Contact, Home, etc.
-└─ App.js
+├─ assets/        # Images, icons, and static assets
+├─ components/    # Reusable UI components
+├─ context/       # React context for state management
+├─ pages/         # Pages like Product, Home, Contact
+├─ App.jsx        # Main app component
+└─ index.jsx      # Entry point
+```
 
-````
+---
+
+## 📹 Demo Video
+
+[![Beauty Outlet Demo](https://img.youtube.com/vi/50IS17RSqN8/0.jpg)](https://www.youtube.com/watch?v=50IS17RSqN8)
+
+Click the image above or the link to watch a walkthrough of the project in action.
 
 ---
 
 ## 🚀 Getting Started
 
-1. **Clone the repository**
-```bash
-git clone https://github.com/yourusername/beauty-outlet.git
-cd beauty-outlet
-````
+1. Clone the repository:
 
-2. **Install dependencies**
+```bash
+git clone https://github.com/your-username/beauty-outlet-frontend.git
+```
+
+2. Navigate to the project folder:
+
+```bash
+cd beauty-outlet-frontend
+```
+
+3. Install dependencies:
 
 ```bash
 npm install
 ```
 
-3. **Start the development server**
+4. Run the development server:
 
 ```bash
 npm start
 ```
 
-4. Open your browser at `http://localhost:3000`
+5. Open [http://localhost:3000](http://localhost:3000) to view in the browser.
 
 ---
 
-## 📄 License
+## 💡 Future Improvements
 
-This project is licensed under the MIT License.
-
----
-
-## 🤝 Contributing
-
-Contributions, issues, and feature requests are welcome!
-
-1. Fork it
-2. Create your branch (`git checkout -b feature-name`)
-3. Commit your changes (`git commit -m 'Add feature'`)
-4. Push to the branch (`git push origin feature-name`)
-5. Open a Pull Request
+* Integrate backend for product management and cart functionality.
+* Add authentication and user accounts.
+* Implement real-time reviews and ratings.
+* Add payment gateway integration.
 
 ---
 
-## 📧 Contact
+## **Contact**
+For questions or feedback, feel free to reach out:  
+**Denisse Benito**  
+Email: [denissebg03@gmail.com](mailto:denissebg03@gmail.com)  
+GitHub: [github.com/Denisse030](https://github.com/Denisse030)
 
-* Email: [denissebg03@gmail.com](mailto:denissebg03@gmail.com)
+---
+
+This README provides a professional overview for your GitHub repository.
+
+If you want, I can also **add a “Screenshots” section** with your product and hero UI for a more visual README. Do you want me to do that next?
