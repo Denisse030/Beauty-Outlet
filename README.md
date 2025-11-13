@@ -6,13 +6,9 @@ A modern, responsive front-end for **Beauty Outlet**, a beauty and skincare e-co
 
 ## 📹 Demo Video  
 
-[![Beauty Outlet Demo]
+[![Beauty Outlet Demo](https://img.youtube.com/vi/50IS17RSqN8/0.jpg)](https://www.youtube.com/watch?v=50IS17RSqN8)  
 
-<a href="https://www.youtube.com/watch?v=50IS17RSqN8">
- <img src="https://img.youtube.com/vi/50IS17RSqN8/maxresdefault.jpg)" alt="Watch the video" width="600" height="auto">
-</a>
-
-Click the thumbnail above to watch a walkthrough of the project's features and functionality!
+Click the image above to watch a walkthrough of the project in action.
 
 ---
 
