@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Alice&family=Lustria&display=swap');
+
+@import "tailwindcss";
+
+a.active hr{
+  display: block;
+}
+
+.lustria-regular {
+  font-family: "Lustria", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+::-webkit-scrollbar{
+  display: none;
+}
+
+* {
+  font-family: 'Lustria';
+}
+
+.app-background {
+  background-image: url('./assets/background_img.png');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  min-height: 100vh;
+}
+
+@media (max-width: 640px) {
+  .app-background {
+    background-image: url('./assets/background_mobile.png');
+    background-attachment: fixed;
+    background-position: center top;
+    
+  }
+}
+
+@media (min-width: 640px) {
+  @keyframes fade-in {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  .animate-fade-in {
+    animation: fade-in 0.8s ease-out both;
+  }
+}
+
+@media (max-width: 639px) {
+  .animate-fade-in {
+    opacity: 1;
+    transform: none;
+    animation: none;
+  }
+}
+
+
+@media (max-width:640px) {
+  a.active{
+    background-color: rgb(237, 158, 207);
+    color: white;
+  }
+}
+
+/* @media (max-width: 640px) {
+  .page-background {
+    background-attachment: scroll;
+  }
+} */
